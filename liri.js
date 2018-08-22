@@ -49,11 +49,17 @@ function help () {
         + "spotify-this-song     To find information about a song,\n"
         + "                      type: 'node liri.js spotify-this-song SONG TITLE'\n"
         + "                      (Substitute 'SONG TITLE' above with the title\n"
-        + "                      of the song you desire to know more about.\n\n"
+        + "                      of the song you wish to know more about.\n\n"
 
-        + "movie-this            \n\n" // [_] fill in instructions here.
+        + "movie-this            To find information about a move,\n"
+        + "                      type: 'node liri.js movie-this MOVIE TITLE'\n"
+        + "                      (Substitute 'MOVIE TITLE' above with the movie\n"
+        + "                      you wish to know more about.\n\n"
 
-        + "do-what-it-says       " // [_] fill in instructions here.
+        + "do-what-it-says       This command runs a command based on the contents\n"
+        + "                      of the file 'random.txt' in this directory. Note\n"
+        + "                      that the command and search request are separated\n"
+        + "                      by a comma."
         + hr
     );
 };
