@@ -34,7 +34,7 @@ switch(command) {
     break;
 }
 
-// [_] Build a help function that lists and defines the possible commands
+// Build a help function that lists and defines the possible commands
 
 function help () {
     console.log(
@@ -106,7 +106,7 @@ function spotifyThisSong() {
     // 	* The song's name
     // 	* A preview link of the song from Spotify
     // 	* The album that the song is from
-    //  * [_] If no song is provided then your program will default to "The Sign" by Ace of Base.
+    //  * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
     if (!input) {
         console.log(
